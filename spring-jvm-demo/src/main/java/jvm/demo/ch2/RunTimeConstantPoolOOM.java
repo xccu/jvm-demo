@@ -7,7 +7,7 @@ import java.util.Set;
  * 2-7 运行时常量池导致的内存溢出异常
  * VM args:-XX:PermSize=6M -XX:MaxPermSize=6M
  *
- * Result:
+ * Result:仅JDK6出现异常
  *
  */
 public class RunTimeConstantPoolOOM {
