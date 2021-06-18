@@ -3,11 +3,6 @@ package jvm.demo.ch3;
 /**
  * 3-1 引用计数算法的缺陷
  *
- * Result:
- * java.lang.OutOfMemoryError: Java heap space
- * Dumping heap to java_pid10236.hprof ...
- * Heap dump file created [28245636 bytes in 0.088 secs]
- *
  */
 public class ReferenceCountingGC {
 
