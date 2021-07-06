@@ -2,8 +2,8 @@ package jvm.demo.ch3;
 
 /**
  * 3-9 长期存活的对象进入老年代
- * VM args:-verbose:gc -Xms20M -Xmx20M -Xmn10M -XX:+PrintGCDetails -XX:SurvivorRatio=8 -XX:MaxTenuringThreshold=1
- *  -XX:+PrintTenuringDistribution
+ * VM args:
+ * -verbose:gc -Xms20M -Xmx20M -Xmn10M -XX:+PrintGCDetails -XX:SurvivorRatio=8 -XX:MaxTenuringThreshold=1 -XX:+PrintTenuringDistribution
  *
  * Result:
  * ?????

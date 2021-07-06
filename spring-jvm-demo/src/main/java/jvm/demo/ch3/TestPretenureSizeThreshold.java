@@ -2,8 +2,8 @@ package jvm.demo.ch3;
 
 /**
  * 3-8 大对象直接进入老年代
- * VM args:-verbose:gc -Xms20M -Xmx20M -Xmn10M -XX:+PrintGCDetails -XX:SurvivorRatio=8
- *  -XX:PretenureSizeThreshold=3145728
+ * VM args:
+ * -verbose:gc -Xms20M -Xmx20M -Xmn10M -XX:+PrintGCDetails -XX:SurvivorRatio=8 -XX:PretenureSizeThreshold=3145728
  *
  * Result:
  * Heap
